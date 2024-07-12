@@ -2,7 +2,7 @@
 Human Activity Recognition (HAR) refers to the capability of machines to identify various activities performed by the users. The knowledge acquired from these recognition systems is integrated into many applications where the associated device uses it to identify actions or gestures and performs predefined tasks in response.
 
 ## Dataset
-For this assignent we will be using a publically available dataset called UCI-HAR. The dataset is available to download here. The Dataset contains data for 30 participants. Each participant performed six activities while wearing a Samsung Galaxy S II smartphone on their waist (The video of the participants taking data is also available here). The smartphone's accelerometer and gyroscope captured 3-axial linear acceleration and 3-axial angular velocity. Read all the readme and info files for more information.
+We will be using a publically available dataset called UCI-HAR. The Dataset contains data for 30 participants. Each participant performed six activities while wearing a Samsung Galaxy S II smartphone on their waist (The video of the participants taking data is also available here). The smartphone's accelerometer and gyroscope captured 3-axial linear acceleration and 3-axial angular velocity. Read all the readme and info files for more information.
 
 ## Preprocessing
 We will use the raw accelerometer data within the inertial_signals folder. The provided script, CombineScript.py, organizes and sorts accelerometer data, establishing separate classes for each category and compiling participant data into these classes. MakeDataset.py script is used to read through all the participant data and create a single dataset. The dataset is then split into train,test and validation set. We focus on the first 10 seconds of activity, translating to the initial 500 data samples due to a sampling rate of 50Hz.
@@ -19,7 +19,7 @@ CombineScript and MakeDataset are used to create a Dataset that will contain the
 7. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
 
 # Deployment!
-Utilize apps like Physics Toolbox Suite from your smartphone to collect your data in .csv/.txt format. Ensure at least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collect 3-5 samples per activity class and report accuracy using both featurized and raw data. You have to train on UCI dataset (You can use the entire dataset if you want) and test it on the data that you have collected and report the accuracy and confusion matrix. Test your model's performance on the collected data, explaining why it succeeded or failed.
+Utilized apps like Physics Toolbox Suite from your smartphone to collect your data in .csv/.txt format. At least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collected 3-5 samples per activity class and reported accuracy using both featurized and raw data. You have to train on UCI dataset and test it on the data that I have collected and reported the accuracy and confusion matrix. Tested your model's performance on the collected data, explaining why it succeeded or failed.
 
 Things to take care of:
 -Ensure the phone is placed in the same position for all the activities.
