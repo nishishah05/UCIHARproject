@@ -22,6 +22,6 @@ CombineScript and MakeDataset are used to create a Dataset that will contain the
 Utilized apps like Physics Toolbox Suite from your smartphone to collect your data in .csv/.txt format. At least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collected 3-5 samples per activity class and reported accuracy using both featurized and raw data. You have to train on UCI dataset and test it on the data that I have collected and reported the accuracy and confusion matrix. Tested your model's performance on the collected data, explaining why it succeeded or failed.
 
 Things to take care of:
--Ensure the phone is placed in the same position for all the activities.
--Ensure the phone is in the same alignment during the activity as changing the alignment will change the data collected and will affect the model's performance.
--Ensure to have atleast 10s of data per file for training. As the data is collected at 50Hz, you will have 500 data samples.
+* Ensure the phone is placed in the same position for all the activities.
+* Ensure the phone is in the same alignment during the activity as changing the alignment will change the data collected and will affect the model's performance.
+* Ensure to have atleast 10s of data per file for training. As the data is collected at 50Hz, you will have 500 data samples.
